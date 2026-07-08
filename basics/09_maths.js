@@ -23,4 +23,11 @@ console.log(Math.random());
 console.log((Math.random()*10) + 1);
 console.log((Math.random()*10) + 1);
 console.log(Math.floor(Math.random()*10) + 1);
-// heer to overcome the problem of 
+// here to overcome the problem of giving values 
+// in 0 we have just added 1 at last so it would 
+// not give the values in the 0 format (0.13, 0.22, 0.99) like this
+// and also we have used the floor option so if the value appeared it chooses loweset nearest number
+
+
+console.log(Math.floor(Math.random() * (max - min + 1)) + min)
+
