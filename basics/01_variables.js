@@ -1,3 +1,6 @@
+// let - this variable can be reassigned once the value given
+// const - this value cannot be reassigned once given
+
 const accountId = 145656
 let accountEmail = "gurkirat@google.com"
 var accountPassword = "12345"
