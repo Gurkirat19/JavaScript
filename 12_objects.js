@@ -8,7 +8,7 @@ const mySym = Symbol("key1")
 const User = {
     name: "Gurkirat",
     "myName" : "Gurkirat Singh",
-    [mySym] : "myKey1",
+    [mySym] : "myKey1",          // -> if we have to make the symbol then we will make this type of the notations
     age: 18,
     location: "Pune",
     email: "gurkiart@gmail.com",
@@ -26,3 +26,19 @@ console.log(User[mySym])
 User.email = "gurkirat19@user.com"
 // this is used to chnage the values 
 
+// Object.freeze(User)
+// .freeze -> if this is use then we cannot chnage the values in the object later
+
+
+User.greeting = function(){
+    console.log("hello js user");
+}
+
+
+User.greeting2 = function(){
+    console.log(`hello js user, ${this.name}`); 
+}
+// this -> when we have to take or give reference from the same object we use this.
+
+console.log(User.greeting());
+console.log(User.greeting2());
