@@ -21,7 +21,6 @@ console.log(id === anotherId);
 
 
 
-
 // Non-Primitive DataTypes
 // Array
 // Objects

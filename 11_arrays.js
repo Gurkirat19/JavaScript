@@ -36,7 +36,7 @@ console.log(myArr);
 console.log(typeof newArr);
 
 // .slice - extraxts the portion of an arr or string
-//         (means using the rnage we can remove the part of it)
+//         (means using the range we can remove the part of it)
 console.log("a", myArr);
 const myn1 = myArr.slice(1, 3)
 console.log(myn1);

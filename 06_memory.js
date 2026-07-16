@@ -1,5 +1,5 @@
 // Memories are of two types -
-// 1. Stack - (used for primitive type)(here the copied value is given to us onec it is assigned.)
+// 1. Stack - (used for primitive type)(here the copied value is given to us once it is assigned.)
 // 2. Heap - (used for non-primitive type)(here the reference value the original value is assigned.)
 
 

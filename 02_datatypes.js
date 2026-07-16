@@ -9,7 +9,7 @@ let isLoggedIn = false
 // number = 2 to power 53
 // biginit -> if number is very big then we use this
 // string -> written in quotes
-// boolena -> true/false
+// boolean -> true/false
 // null -> standalone value (empty value)
 // undefined -> no value assigned 
 // symbol -> use to defined / unique values

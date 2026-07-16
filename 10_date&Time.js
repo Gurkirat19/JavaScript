@@ -1,12 +1,12 @@
 let myDate = new Date()
 // console.log(myDate.toString());
-// here we have converted the date to the string so it can be rea easily 
+// here we have converted the date to the string so it can be read easily 
 
 
-// console.log(myDate.toDateString());
-// console.log(myDate.toISOString());
-// console.log(myDate.toJSON());
-// console.log(myDate.toLocaleDateString());
+// console.log(myDate.toDateString());  // -> returns date in human readable format (only include date not timezone and time)
+// console.log(myDate.toISOString());  //  -> Returns the date and time in the ISO 8601 standard format
+// console.log(myDate.toJSON());               // -> Returns the same ISO format used in JSON serialization.
+// console.log(myDate.toLocaleDateString());   // -> Returns the date formatted according to the user's locale (region).
 // we can convert them into multiple things 
 
 

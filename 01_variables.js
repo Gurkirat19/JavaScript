@@ -7,8 +7,7 @@ var accountPassword = "12345"
 accountCity = "Pune"
 let accountstate;
 
-// accountId = 2
-
+// accountId = 2 ( it will not chnage the account id )
 accountEmail = "nice@gmail.com"
 accountPassword = "6789"
 accountCity = "Mumbai"

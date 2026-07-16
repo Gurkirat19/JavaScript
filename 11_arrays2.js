@@ -2,9 +2,9 @@ const marvel_heroes = ["thor", "ironman", "spiderman"]
 const dc_heroes = ["superman", "flash", "batman"]
 marvel_heroes.push(dc_heroes)
 console.log(marvel_heroes);
+// .push() -> method is used to add one or more elements to the end of an array.
 // here it will merge the arrays but it will convert the
 // second array into the 4th element in the first arr although it is a array.
-// here push changes the original array 
 
 
 const allHeroes = marvel_heroes.concat(dc_heroes)
@@ -15,7 +15,7 @@ console.log(allHeroes);
 const allHeroes1 = [...marvel_heroes, ...dc_heroes]
 console.log(allHeroes1);
 // this is called spread out values 
-// here we use ... so that they give me imvidual values
+// here we use ... so that they give me individual values
 
 
 const another_array = [1, 2, 3, [4, 5, 6], 7, [6, 7, [4, 5]]]

@@ -54,20 +54,19 @@ let str1 = "hello"
 let str2 = " gurkirat"
 
 let str3 = str1 + str2
-// console.log(str3);
+// console.log(str3);   => it wil f=give the reuslt by adding both the variables hellogurkira
 
-// console.log("1" + 2);
+// console.log("1" + 2); => will print 12
 // console.log(1 + "2");
 // console.log("1" + 2 + 2);
 // console.log(1 + 2 + "2");
 // console.log(3 + 4 * 5 % 3);
 
 console.log(true);
-console.log(+true);
-console.log(+"");
+console.log(+true);   // => print 1
+console.log(+"");     // => will print 0
 
 let num1, num2, num3
-
 num1 = num2 = num3 = 2 + 2
 
 let gameCounter = 100
@@ -75,6 +74,6 @@ gameCounter++;
 console.log(gameCounter);
 
 
-// prefix - here the first value is changed first then the original value is changed 
-// postfix - here the the first value is assigned to the second variable then the value is changed
+// prefix - here the first value is changed first then the original value is changed   eg-counter++
+// postfix - here the the first value is assigned to the second variable then the value is changed  eg-++counter
 
